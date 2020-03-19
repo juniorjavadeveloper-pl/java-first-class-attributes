@@ -1,9 +1,11 @@
+package pl.juniorjavadeveloper.java.first.clazz.attributes;
+
 public class NotebookStore {
     public static void main(String[] args) {
         Notebook blankNotebook = new Notebook();
         Notebook personalNotebook = new Notebook();
 
-        // wypisanie wartości jednej zmiennej z klasy Notebook
+        // wypisanie wartości jednej zmiennej z klasy pl.juniorjavadeveloper.java.first.clazz.attributes.Notebook
         System.out.println("Liczba stron zapisanych w Notatniku:");
         System.out.println(blankNotebook.pagesWritten);
 

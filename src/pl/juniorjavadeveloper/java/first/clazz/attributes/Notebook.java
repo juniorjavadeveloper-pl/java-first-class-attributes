@@ -1,3 +1,5 @@
+package pl.juniorjavadeveloper.java.first.clazz.attributes;
+
 public class Notebook {
     int pages;
     int pagesWritten;
@@ -9,7 +11,7 @@ public class Notebook {
 
     @Override
     public String toString() {
-        return "Notebook{" +
+        return "pl.juniorjavadeveloper.java.first.clazz.attributes.Notebook{" +
                 "pages=" + pages +
                 ", pagesWritten=" + pagesWritten +
                 ", currentPage=" + currentPage +
